@@ -1,0 +1,39 @@
+.containerF {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('Id.jpeg');
+  background-size: cover;
+  background-position: center;
+  animation: backgroundMove 3s infinite alternate; /* Apply animation to background */
+  width: 100vw; /* Set the width to 100% of the viewport width */
+}
+
+.containerF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Define keyframes for animation */
+@keyframes backgroundMove {
+  0% { background-position: center; } /* Initial position */
+  100% { background-position: right; } /* Move to the right */
+}
+
+.contentF {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  width: 40%; /* Set the width to 80% of the container */
+  max-width: 600px; /* Set a maximum width for better readability */
+  height: 40%; /* Set the height to 80% of the container */
+  max-height: 600px; /* Set a maximum height for better readability */
+  display: flex; /* Make the content flex container */
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Center the content vertically */
+}
+
+/* Add other styles as needed */

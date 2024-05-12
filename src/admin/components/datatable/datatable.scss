@@ -1,0 +1,61 @@
+.datatableAdmin {
+  height: 100px;
+  padding: 20px;
+
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    
+  }
+
+  .cellAction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .deleteButton {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: red;
+    border: 1px dotted red;
+    cursor: pointer;
+  }
+
+  .search-bar-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 10px;
+    width: 200px;
+
+    input {
+      flex-grow: 1;
+      border: none;
+      outline: none;
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+
+  .search-bar-icon {
+    padding: 8px;
+    color: #999;
+    cursor: pointer;
+  }
+}

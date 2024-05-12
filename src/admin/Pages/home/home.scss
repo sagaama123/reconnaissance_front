@@ -1,0 +1,30 @@
+// home.scss
+.homeAdmin {
+  display: flex;
+
+  .homeContainer {
+    flex: 6;
+    .nav {
+      background-color: rgb(255, 255, 255); // Set background color to white
+    }
+    
+    .widgets,
+    .charts {
+      display: flex;
+      padding: 10px;
+      gap: 10px;
+      margin-top: 70px;
+    }
+
+    .charts {
+      padding: 5px 10px; /* Adjust the padding */
+      height: 300px;
+    }
+
+    .listtitle {
+      flex: 3;
+      padding: 3px;
+    }
+  }
+}
+

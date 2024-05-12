@@ -1,0 +1,17 @@
+.chartA{
+    
+        position: absolute;
+        left: 50%;
+        top:50%;
+        width: 200px;   // Set the width of the element to 200 pixels
+        height: 150px; 
+        .title{
+            position: absolute; // Set position to absolute
+            right: -60%; 
+            top: -40%;
+            font-size: 24px; 
+            color: gray;
+        }
+    
+
+}

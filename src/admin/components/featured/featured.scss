@@ -1,0 +1,14 @@
+.featuredAdmin{
+    flex: 4;
+    position: absolute;
+    right: 60%;
+    top: 45%;
+    padding: 10px;
+    margin: 20px;
+
+    .listtitle{
+        font-weight: 500;
+        color: gray;
+        margin-bottom: 15px;
+    }
+}
